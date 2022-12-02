@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Computer-Hardware-Keyboard-icon.png" />
+    <None Remove="discord-logo-0.png" />
+    <None Remove="discord-logo.svg" />
+    <None Remove="Icons8-Ios7-Computer-Hardware-Keyboard.ico" />
+    <None Remove="keyboardcleaner.ico" />
+    <None Remove="keyboardcleaner.png" />
+    <None Remove="power_button.png" />
+    <None Remove="power_button_off.png" />
+    <None Remove="power_button_on.png" />
+    <None Remove="Sem Título-1.png" />
+    <None Remove="Sem Título-2.png" />
+    <None Remove="Sem-Título-1.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="keyboardcleaner.png" />
+    <Resource Include="power_button.png" />
+    <Resource Include="power_button_off.png" />
+    <Resource Include="power_button_on.png" />
+  </ItemGroup>
+
+</Project>
